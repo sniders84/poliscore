@@ -4,20 +4,28 @@ import './OfficialCard.css'; // optional styling
 const OfficialCard = ({ official }) => {
   return (
     <div className="official-card">
-     <img
-  src={official.photoUrl}
-  alt={official.name}
-  className="official-photo"
-  referrerPolicy="no-referrer"
-  style={{
-    width: '120px',
-    height: '120px',
-    borderRadius: '50%',
-    objectFit: 'cover',
-    boxShadow: '0 2px 6px rgba(0,0,0,0.2)',
-    marginBottom: '12px',
-    display: 'block'
-  }}
+  <img
+    src={official.photoUrl}
+    alt={official.name}
+    className="official-photo"
+    referrerPolicy="no-referrer"
+    style={{
+      width: '120px',
+      height: '120px',
+      borderRadius: '50%',
+      objectFit: 'cover',
+      boxShadow: '0 2px 6px rgba(0,0,0,0.2)',
+      marginBottom: '12px',
+      display: 'block'
+    }}
+  />
+  <h2>{official.name}</h2>
+  <p>{official.role} — {official.state}</p>
+  <p>Score: {official.score.overall}</p>
+  <p>Approval: {official.approvalRating}%</p>
+  <p>Attendance: {official.attendanceRate}%</p>
+  <p>Bills Passed: {official.billsPassed}</p>
+</div>
 />
   alt={official.name}
   className="official-photo"
