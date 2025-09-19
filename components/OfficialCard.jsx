@@ -19,6 +19,19 @@ const OfficialCard = ({ official }) => {
     display: 'block'
   }}
 />
+  alt={official.name}
+  className="official-photo"
+  referrerPolicy="no-referrer"
+  style={{
+    width: '120px',
+    height: '120px',
+    borderRadius: '50%',
+    objectFit: 'cover',
+    boxShadow: '0 2px 6px rgba(0,0,0,0.2)',
+    marginBottom: '12px',
+    display: 'block'
+  }}
+/>
   src={official.photoUrl || 'https://via.placeholder.com/100'}
   alt={official.name}
   className="official-photo"
