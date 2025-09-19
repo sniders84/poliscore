@@ -1,0 +1,15 @@
+[
+  {
+    "id": "NC-01",
+    "name": "Jane Doe",
+    "role": "Representative",
+    "state": "NC",
+    "district": "1"
+  },
+  {
+    "id": "TX-GOV",
+    "name": "John Smith",
+    "role": "Governor",
+    "state": "TX"
+  }
+]
