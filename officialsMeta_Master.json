@@ -1,177 +1,179 @@
 [
- {
-  "id": "CA-SEN-01",
-  "name": "Alex Padilla",
-  "role": "Senator",
-  "state": "CA",
-  "district": null,
-  "party": "Democratic",
-  "stateShape": "CA",
-  "partyColor": "#1877F2",
-  "platform": "Voting rights, immigration reform, climate action",
-  "attendanceRate": 98.7,
-  "billsSponsored": 41,
-  "billsPassed": 9,
-  "approvalRating": 61.2,
-  "committees": ["Judiciary", "Environment and Public Works"],
-  "score": {
-    "overall": 89.1,
-    "attendance": 9.9,
-    "impact": 8.6,
-    "bipartisanship": 7.8,
-    "engagement": 8.7
+ [
+  {
+    "id": "CA-SEN-01",
+    "name": "Alex Padilla",
+    "role": "Senator",
+    "state": "CA",
+    "district": null,
+    "party": "Democratic",
+    "stateShape": "CA",
+    "partyColor": "#1877F2",
+    "platform": "Voting rights, immigration reform, climate action",
+    "attendanceRate": 98.7,
+    "billsSponsored": 41,
+    "billsPassed": 9,
+    "approvalRating": 61.2,
+    "committees": ["Judiciary", "Environment and Public Works"],
+    "score": {
+      "overall": 89.1,
+      "attendance": 9.9,
+      "impact": 8.6,
+      "bipartisanship": 7.8,
+      "engagement": 8.7
+    },
+    "votingHistory": [],
+    "achievements": ["Led wildfire recovery funding", "Expanded voter access"],
+    "contact": {
+      "email": "senator@padilla.senate.gov",
+      "phone": "202-224-3553",
+      "address": "112 Hart Senate Office Building, Washington, DC",
+      "website": "https://www.padilla.senate.gov",
+      "social": {
+        "twitter": "@SenAlexPadilla",
+        "facebook": "facebook.com/SenAlexPadilla"
+      }
+    }
   },
-  "votingHistory": [],
-  "achievements": ["Led wildfire recovery funding", "Expanded voter access"],
-  "contact": {
-    "email": "senator@padilla.senate.gov",
-    "phone": "202-224-3553",
-    "address": "112 Hart Senate Office Building, Washington, DC",
-    "website": "https://www.padilla.senate.gov",
-    "social": {
-      "twitter": "@SenAlexPadilla",
-      "facebook": "facebook.com/SenAlexPadilla"
+  {
+    "id": "TX-SEN-01",
+    "name": "Ted Cruz",
+    "role": "Senator",
+    "state": "TX",
+    "district": null,
+    "party": "Republican",
+    "stateShape": "TX",
+    "partyColor": "#D93025",
+    "platform": "Constitutional conservatism, border security, tax reform",
+    "attendanceRate": 97.8,
+    "billsSponsored": 53,
+    "billsPassed": 12,
+    "approvalRating": 47.3,
+    "committees": ["Judiciary", "Commerce, Science, and Transportation"],
+    "score": {
+      "overall": 85.6,
+      "attendance": 9.7,
+      "impact": 8.4,
+      "bipartisanship": 7.2,
+      "engagement": 8.1
+    },
+    "votingHistory": [],
+    "achievements": ["Led tax reform initiative", "Authored legislation on internet freedom"],
+    "contact": {
+      "email": "senator@cruz.senate.gov",
+      "phone": "202-224-5922",
+      "address": "404 Russell Senate Office Building, Washington, DC",
+      "website": "https://www.cruz.senate.gov",
+      "social": {
+        "twitter": "@SenTedCruz",
+        "facebook": "facebook.com/SenatorTedCruz"
+      }
+    }
+  },
+  {
+    "id": "WI-SEN-01",
+    "name": "Tammy Baldwin",
+    "role": "Senator",
+    "state": "WI",
+    "district": null,
+    "party": "Democratic",
+    "stateShape": "WI",
+    "partyColor": "#1877F2",
+    "platform": "Healthcare access, LGBTQ+ rights, manufacturing jobs",
+    "attendanceRate": 98.2,
+    "billsSponsored": 35,
+    "billsPassed": 9,
+    "approvalRating": 61.7,
+    "committees": ["Appropriations", "Health, Education, Labor, and Pensions"],
+    "score": {
+      "overall": 87.9,
+      "attendance": 9.8,
+      "impact": 8.3,
+      "bipartisanship": 8.0,
+      "engagement": 8.6
+    },
+    "votingHistory": [],
+    "achievements": ["Authored LGBTQ+ anti-discrimination bill", "Secured rural hospital funding"],
+    "contact": {
+      "email": "senator@baldwin.senate.gov",
+      "phone": "202-224-5653",
+      "address": "141 Hart Senate Office Building, Washington, DC",
+      "website": "https://www.baldwin.senate.gov",
+      "social": {
+        "twitter": "@SenatorBaldwin",
+        "facebook": "facebook.com/SenatorTammyBaldwin"
+      }
+    }
+  },
+  {
+    "id": "WV-SEN-01",
+    "name": "Shelley Moore Capito",
+    "role": "Senator",
+    "state": "WV",
+    "district": null,
+    "party": "Republican",
+    "stateShape": "WV",
+    "partyColor": "#D93025",
+    "platform": "Infrastructure, broadband expansion, opioid crisis response",
+    "attendanceRate": 97.5,
+    "billsSponsored": 28,
+    "billsPassed": 7,
+    "approvalRating": 58.4,
+    "committees": ["Appropriations", "Environment and Public Works"],
+    "score": {
+      "overall": 86.3,
+      "attendance": 9.7,
+      "impact": 8.1,
+      "bipartisanship": 8.4,
+      "engagement": 8.1
+    },
+    "votingHistory": [],
+    "achievements": ["Secured rural broadband funding", "Led opioid prevention legislation"],
+    "contact": {
+      "email": "senator@capito.senate.gov",
+      "phone": "202-224-6472",
+      "address": "172 Russell Senate Office Building, Washington, DC",
+      "website": "https://www.capito.senate.gov",
+      "social": {
+        "twitter": "@SenCapito",
+        "facebook": "facebook.com/SenatorCapito"
+      }
+    }
+  },
+  {
+    "id": "DE-SEN-01",
+    "name": "Chris Coons",
+    "role": "Senator",
+    "state": "DE",
+    "district": null,
+    "party": "Democratic",
+    "stateShape": "DE",
+    "partyColor": "#1877F2",
+    "platform": "Foreign relations, judicial reform, climate policy",
+    "attendanceRate": 98.9,
+    "billsSponsored": 39,
+    "billsPassed": 10,
+    "approvalRating": 60.1,
+    "committees": ["Foreign Relations", "Judiciary"],
+    "score": {
+      "overall": 88.7,
+      "attendance": 9.9,
+      "impact": 8.5,
+      "bipartisanship": 8.3,
+      "engagement": 8.6
+    },
+    "votingHistory": [],
+    "achievements": ["Strengthened U.S.–Africa partnerships", "Advanced bipartisan judicial reforms"],
+    "contact": {
+      "email": "senator@coons.senate.gov",
+      "phone": "202-224-5042",
+      "address": "218 Russell Senate Office Building, Washington, DC",
+      "website": "https://www.coons.senate.gov",
+      "social": {
+        "twitter": "@ChrisCoons",
+        "facebook": "facebook.com/SenatorChrisCoons"
+      }
     }
   }
-},
-{
-  "id": "TX-SEN-01",
-  "name": "Ted Cruz",
-  "role": "Senator",
-  "state": "TX",
-  "district": null,
-  "party": "Republican",
-  "stateShape": "TX",
-  "partyColor": "#D93025",
-  "platform": "Constitutional conservatism, border security, tax reform",
-  "attendanceRate": 97.8,
-  "billsSponsored": 53,
-  "billsPassed": 12,
-  "approvalRating": 47.3,
-  "committees": ["Judiciary", "Commerce, Science, and Transportation"],
-  "score": {
-    "overall": 85.6,
-    "attendance": 9.7,
-    "impact": 8.4,
-    "bipartisanship": 7.2,
-    "engagement": 8.1
-  },
-  "votingHistory": [],
-  "achievements": ["Led tax reform initiative", "Authored legislation on internet freedom"],
-  "contact": {
-    "email": "senator@cruz.senate.gov",
-    "phone": "202-224-5922",
-    "address": "404 Russell Senate Office Building, Washington, DC",
-    "website": "https://www.cruz.senate.gov",
-    "social": {
-      "twitter": "@SenTedCruz",
-      "facebook": "facebook.com/SenatorTedCruz"
-    }
-  }
-},
-{
-  "id": "WI-SEN-01",
-  "name": "Tammy Baldwin",
-  "role": "Senator",
-  "state": "WI",
-  "district": null,
-  "party": "Democratic",
-  "stateShape": "WI",
-  "partyColor": "#1877F2",
-  "platform": "Healthcare access, LGBTQ+ rights, manufacturing jobs",
-  "attendanceRate": 98.2,
-  "billsSponsored": 35,
-  "billsPassed": 9,
-  "approvalRating": 61.7,
-  "committees": ["Appropriations", "Health, Education, Labor, and Pensions"],
-  "score": {
-    "overall": 87.9,
-    "attendance": 9.8,
-    "impact": 8.3,
-    "bipartisanship": 8.0,
-    "engagement": 8.6
-  },
-  "votingHistory": [],
-  "achievements": ["Authored LGBTQ+ anti-discrimination bill", "Secured rural hospital funding"],
-  "contact": {
-    "email": "senator@baldwin.senate.gov",
-    "phone": "202-224-5653",
-    "address": "141 Hart Senate Office Building, Washington, DC",
-    "website": "https://www.baldwin.senate.gov",
-    "social": {
-      "twitter": "@SenatorBaldwin",
-      "facebook": "facebook.com/SenatorTammyBaldwin"
-    }
-  }
-},
-{
-  "id": "WV-SEN-01",
-  "name": "Shelley Moore Capito",
-  "role": "Senator",
-  "state": "WV",
-  "district": null,
-  "party": "Republican",
-  "stateShape": "WV",
-  "partyColor": "#D93025",
-  "platform": "Infrastructure, broadband expansion, opioid crisis response",
-  "attendanceRate": 97.5,
-  "billsSponsored": 28,
-  "billsPassed": 7,
-  "approvalRating": 58.4,
-  "committees": ["Appropriations", "Environment and Public Works"],
-  "score": {
-    "overall": 86.3,
-    "attendance": 9.7,
-    "impact": 8.1,
-    "bipartisanship": 8.4,
-    "engagement": 8.1
-  },
-  "votingHistory": [],
-  "achievements": ["Secured rural broadband funding", "Led opioid prevention legislation"],
-  "contact": {
-    "email": "senator@capito.senate.gov",
-    "phone": "202-224-6472",
-    "address": "172 Russell Senate Office Building, Washington, DC",
-    "website": "https://www.capito.senate.gov",
-    "social": {
-      "twitter": "@SenCapito",
-      "facebook": "facebook.com/SenatorCapito"
-    }
-  }
-},
-{
-  "id": "DE-SEN-01",
-  "name": "Chris Coons",
-  "role": "Senator",
-  "state": "DE",
-  "district": null,
-  "party": "Democratic",
-  "stateShape": "DE",
-  "partyColor": "#1877F2",
-  "platform": "Foreign relations, judicial reform, climate policy",
-  "attendanceRate": 98.9,
-  "billsSponsored": 39,
-  "billsPassed": 10,
-  "approvalRating": 60.1,
-  "committees": ["Foreign Relations", "Judiciary"],
-  "score": {
-    "overall": 88.7,
-    "attendance": 9.9,
-    "impact": 8.5,
-    "bipartisanship": 8.3,
-    "engagement": 8.6
-  },
-  "votingHistory": [],
-  "achievements": ["Strengthened U.S.–Africa partnerships", "Advanced bipartisan judicial reforms"],
-  "contact": {
-    "email": "senator@coons.senate.gov",
-    "phone": "202-224-5042",
-    "address": "218 Russell Senate Office Building, Washington, DC",
-    "website": "https://www.coons.senate.gov",
-    "social": {
-      "twitter": "@ChrisCoons",
-      "facebook": "facebook.com/SenatorChrisCoons"
-    }
-  }
-}
+]
 ]
