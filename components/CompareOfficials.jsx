@@ -1,4 +1,5 @@
 import React from 'react';
+import OfficialCard from './OfficialCard'; // ✅ Move this here
 
 function CompareOfficials({ officials }) {
   if (!officials || !officials.length) {
@@ -6,14 +7,12 @@ function CompareOfficials({ officials }) {
   }
 
   return (
-    <div className="compare-grid">
-      import OfficialCard from './OfficialCard';
-
-{officials.map(o => (
-  <OfficialCard key={o.id} official={o} />
-))}
-    </div>
-  );
+  <div className="compare-grid">
+    {officials.map(o => (
+      <OfficialCard key={o.id} official={o} />
+    ))}
+  </div>
+);
 }
 
 export default CompareOfficials;
