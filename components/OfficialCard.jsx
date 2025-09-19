@@ -1,36 +1,24 @@
 import React from 'react';
-import './OfficialCard.css'; // optional styling
+import { Link } from 'react-router-dom';
+import './OfficialCard.css';
 
 const OfficialCard = ({ official }) => {
   return (
     <div className="official-card">
       <img
-        src={official.photoUrl || 'https://via.placeholder.com/120'}
+        src={official.photoUrl}
         alt={official.name}
         className="official-photo"
         referrerPolicy="no-referrer"
-        style={{
-          width: '120px',
-          height: '120px',
-          borderRadius: '50%',
-          objectFit: 'cover',
-          boxShadow: '0 2px 6px rgba(0,0,0,0.2)',
-          marginBottom: '12px',
-          display: 'block'
-        }}
       />
-      <h2>{official.name}</h2>
-      <p>{official.role} — {official.state || official.territory}</p>
-      <div className="score-bar">
-        <span>Score: {official.score?.overall ?? 'N/A'}</span>
-        <progress value={official.score?.overall ?? 0} max="100"></progress>
+      <div className="official-info">
+        <h3>{official.name}</h3>
+        <p>{official.role} — {official.state}</p>
+        <p>Score: {official.score?.overall ?? 'N/A'}</p>
+        <Link to={`/profile/${official.id}`} className="profile-button">
+          View Profile
+        </Link>
       </div>
-      <div className="stats">
-        <p>Approval: {official.approvalRating}%</p>
-        <p>Attendance: {official.attendanceRate}%</p>
-        <p>Bills Passed: {official.billsPassed}</p>
-      </div>
-      <button onClick={() => alert('Expand profile coming soon')}>View Profile</button>
     </div>
   );
 };
