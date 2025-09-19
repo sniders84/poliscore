@@ -3,7 +3,7 @@ import './OfficialCard.css'; // optional styling
 
 const OfficialCard = ({ official }) => {
   return (
-    <div className="official-card">
+   <div className="official-card">
   <img
     src={official.photoUrl}
     alt={official.name}
@@ -18,7 +18,15 @@ const OfficialCard = ({ official }) => {
       marginBottom: '12px',
       display: 'block'
     }}
-  />
+    </div>
+  <h2>{official.name}</h2>
+  <p>{official.role} — {official.state}</p>
+  <p>Score: {official.score.overall}</p>
+  <p>Approval: {official.approvalRating}%</p>
+  <p>Attendance: {official.attendanceRate}%</p>
+  <p>Bills Passed: {official.billsPassed}</p>
+</div>
+
   <h2>{official.name}</h2>
   <p>{official.role} — {official.state}</p>
   <p>Score: {official.score.overall}</p>
