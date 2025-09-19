@@ -1,13 +1,14 @@
 import React from 'react';
-import CompareOfficials from './components/CompareOfficials';
-import officials from './officialsMeta_Master.json';
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/Home.jsx';
+import Profile from './pages/Profile.jsx';
 
 function App() {
   return (
-    <div>
-      <h1>Civic Performance Dashboard</h1>
-      <CompareOfficials officials={officials} />
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/profile/:id" element={<Profile />} />
+    </Routes>
   );
 }
 
