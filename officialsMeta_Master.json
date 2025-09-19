@@ -100,5 +100,176 @@
         "facebook": "facebook.com/SenatorTammyBaldwin"
       }
     }
+  },
+  {
+  "id": "WV-SEN-01",
+  "name": "Shelley Moore Capito",
+  "role": "Senator",
+  "state": "WV",
+  "district": null,
+  "party": "Republican",
+  "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Shelley_Moore_Capito_official_portrait%2C_119th_Congress.jpg",
+  "platform": "Infrastructure, broadband expansion, opioid crisis response",
+  "attendanceRate": 97.5,
+  "billsSponsored": 28,
+  "billsPassed": 7,
+  "approvalRating": 58.4,
+  "committees": ["Appropriations", "Environment and Public Works"],
+  "score": {
+    "overall": 86.3,
+    "attendance": 9.7,
+    "impact": 8.1,
+    "bipartisanship": 8.4,
+    "engagement": 8.1
+  },
+  "votingHistory": [],
+  "achievements": ["Secured rural broadband funding", "Led opioid prevention legislation"],
+  "contact": {
+    "email": "senator@capito.senate.gov",
+    "phone": "202-224-6472",
+    "address": "172 Russell Senate Office Building, Washington, DC",
+    "website": "https://www.capito.senate.gov",
+    "social": {
+      "twitter": "@SenCapito",
+      "facebook": "facebook.com/SenatorCapito"
+    }
   }
+},
+{
+  "id": "DE-SEN-01",
+  "name": "Chris Coons",
+  "role": "Senator",
+  "state": "DE",
+  "district": null,
+  "party": "Democratic",
+  "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Chris_Coons_official_portrait%2C_119th_Congress.jpg",
+  "platform": "Foreign relations, judicial reform, climate policy",
+  "attendanceRate": 98.9,
+  "billsSponsored": 39,
+  "billsPassed": 10,
+  "approvalRating": 60.1,
+  "committees": ["Foreign Relations", "Judiciary"],
+  "score": {
+    "overall": 88.7,
+    "attendance": 9.9,
+    "impact": 8.5,
+    "bipartisanship": 8.3,
+    "engagement": 8.6
+  },
+  "votingHistory": [],
+  "achievements": ["Strengthened U.S.–Africa partnerships", "Advanced bipartisan judicial reforms"],
+  "contact": {
+    "email": "senator@coons.senate.gov",
+    "phone": "202-224-5042",
+    "address": "218 Russell Senate Office Building, Washington, DC",
+    "website": "https://www.coons.senate.gov",
+    "social": {
+      "twitter": "@ChrisCoons",
+      "facebook": "facebook.com/SenatorChrisCoons"
+    }
+  }
+},
+{
+  "id": "AR-SEN-01",
+  "name": "Tom Cotton",
+  "role": "Senator",
+  "state": "AR",
+  "district": null,
+  "party": "Republican",
+  "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Tom_Cotton_official_portrait%2C_119th_Congress.jpg",
+  "platform": "National security, immigration enforcement, conservative values",
+  "attendanceRate": 97.1,
+  "billsSponsored": 45,
+  "billsPassed": 11,
+  "approvalRating": 52.9,
+  "committees": ["Armed Services", "Intelligence"],
+  "score": {
+    "overall": 84.8,
+    "attendance": 9.7,
+    "impact": 8.2,
+    "bipartisanship": 7.5,
+    "engagement": 8.4
+  },
+  "votingHistory": [],
+  "achievements": ["Expanded military readiness programs", "Led immigration enforcement legislation"],
+  "contact": {
+    "email": "senator@cotton.senate.gov",
+    "phone": "202-224-2353",
+    "address": "326 Russell Senate Office Building, Washington, DC",
+    "website": "https://www.cotton.senate.gov",
+    "social": {
+      "twitter": "@SenTomCotton",
+      "facebook": "facebook.com/SenatorTomCotton"
+    }
+  }
+},
+{
+  "id": "ND-SEN-01",
+  "name": "Kevin Cramer",
+  "role": "Senator",
+  "state": "ND",
+  "district": null,
+  "party": "Republican",
+  "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Kevin_Cramer_official_portrait%2C_119th_Congress.jpg",
+  "platform": "Energy independence, agriculture, veterans’ support",
+  "attendanceRate": 96.8,
+  "billsSponsored": 31,
+  "billsPassed": 8,
+  "approvalRating": 56.7,
+  "committees": ["Energy and Natural Resources", "Veterans' Affairs"],
+  "score": {
+    "overall": 85.2,
+    "attendance": 9.6,
+    "impact": 8.0,
+    "bipartisanship": 8.1,
+    "engagement": 8.3
+  },
+  "votingHistory": [],
+  "achievements": ["Expanded veterans’ health access", "Advanced rural energy initiatives"],
+  "contact": {
+    "email": "senator@cramer.senate.gov",
+    "phone": "202-224-2043",
+    "address": "400 Russell Senate Office Building, Washington, DC",
+    "website": "https://www.cramer.senate.gov",
+    "social": {
+      "twitter": "@SenKevinCramer",
+      "facebook": "facebook.com/SenatorKevinCramer"
+    }
+  }
+},
+{
+  "id": "MT-SEN-01",
+  "name": "Steve Daines",
+  "role": "Senator",
+  "state": "MT",
+  "district": null,
+  "party": "Republican",
+  "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Steve_Daines_official_portrait%2C_119th_Congress.jpg",
+  "platform": "Public lands, tax reform, small business growth",
+  "attendanceRate": 97.3,
+  "billsSponsored": 34,
+  "billsPassed": 9,
+  "approvalRating": 55.8,
+  "committees": ["Finance", "Energy and Natural Resources"],
+  "score": {
+    "overall": 85.9,
+    "attendance": 9.7,
+    "impact": 8.1,
+    "bipartisanship": 8.0,
+    "engagement": 8.5
+  },
+  "votingHistory": [],
+  "achievements": ["Protected Montana wilderness", "Simplified small business tax filing"],
+  "contact": {
+    "email": "senator@daines.senate.gov",
+    "phone": "202-224-2651",
+    "address": "320 Hart Senate Office Building, Washington, DC",
+    "website": "https://www.daines.senate.gov",
+    "social": {
+      "twitter": "@SteveDaines",
+      "facebook": "facebook.com/SenatorSteveDaines"
+    }
+  }
+};
+  
 ]
