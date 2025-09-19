@@ -1,12 +1,12 @@
 [
-  {
+ {
   "id": "CA-SEN-01",
   "name": "Alex Padilla",
   "role": "Senator",
   "state": "CA",
   "district": null,
   "party": "Democratic",
-  "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Alex_Padilla_official_portrait%2C_119th_Congress.jpg",
+  "photoUrl": "https://www.govtrack.us/static/photos/412529-200px.jpeg",
   "platform": "Voting rights, immigration reform, climate action",
   "attendanceRate": 98.7,
   "billsSponsored": 41,
@@ -40,7 +40,7 @@
   "state": "TX",
   "district": null,
   "party": "Republican",
-  "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Ted_Cruz_official_portrait%2C_119th_Congress.jpg",
+  "photoUrl": "https://www.govtrack.us/static/photos/412573-200px.jpeg",
   "platform": "Constitutional conservatism, border security, tax reform",
   "attendanceRate": 97.8,
   "billsSponsored": 53,
@@ -74,7 +74,7 @@
   "state": "WI",
   "district": null,
   "party": "Democratic",
-  "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Tammy_Baldwin_official_portrait%2C_119th_Congress.jpg",
+  "photoUrl": "https://www.govtrack.us/static/photos/412472-200px.jpeg",
   "platform": "Healthcare access, LGBTQ+ rights, manufacturing jobs",
   "attendanceRate": 98.2,
   "billsSponsored": 35,
@@ -108,7 +108,7 @@
   "state": "WV",
   "district": null,
   "party": "Republican",
-  "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Shelley_Moore_Capito_official_portrait%2C_119th_Congress.jpg",
+  "photoUrl": "https://www.govtrack.us/static/photos/412606-200px.jpeg",
   "platform": "Infrastructure, broadband expansion, opioid crisis response",
   "attendanceRate": 97.5,
   "billsSponsored": 28,
@@ -142,7 +142,7 @@
   "state": "DE",
   "district": null,
   "party": "Democratic",
-  "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Chris_Coons_official_portrait%2C_119th_Congress.jpg",
+  "photoUrl": "https://www.govtrack.us/static/photos/412394-200px.jpeg",
   "platform": "Foreign relations, judicial reform, climate policy",
   "attendanceRate": 98.9,
   "billsSponsored": 39,
@@ -168,5 +168,5 @@
       "facebook": "facebook.com/SenatorChrisCoons"
     }
   }
-} 
+}
 ]
