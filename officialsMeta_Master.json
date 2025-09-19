@@ -1,15 +1,55 @@
 [
   {
-    "id": "NC-01",
+    "id": "NC-SEN-01",
     "name": "Jane Doe",
-    "role": "Representative",
+    "role": "Senator",
     "state": "NC",
-    "district": "1"
-  },
-  {
-    "id": "TX-GOV",
-    "name": "John Smith",
-    "role": "Governor",
-    "state": "TX"
+    "district": null,
+    "party": "Independent",
+    "photoUrl": "https://example.com/photos/jane-doe.jpg",
+    "platform": "Healthcare reform, climate action, voting rights",
+    "attendanceRate": 97.2,
+    "billsSponsored": 42,
+    "billsPassed": 11,
+    "approvalRating": 62.5,
+    "committees": [
+      "Judiciary",
+      "Environment and Public Works"
+    ],
+    "score": {
+      "overall": 88.4,
+      "attendance": 9.7,
+      "impact": 8.5,
+      "bipartisanship": 7.9,
+      "engagement": 8.3
+    },
+    "votingHistory": [
+      {
+        "billId": "S.1234",
+        "title": "Clean Energy Act",
+        "vote": "Yea",
+        "link": "https://www.congress.gov/bill/1234"
+      },
+      {
+        "billId": "S.5678",
+        "title": "Defense Budget Increase",
+        "vote": "Nay",
+        "link": "https://www.congress.gov/bill/5678"
+      }
+    ],
+    "achievements": [
+      "Led bipartisan climate task force",
+      "Secured funding for rural hospitals"
+    ],
+    "contact": {
+      "email": "jane.doe@senate.gov",
+      "phone": "202-555-1234",
+      "address": "123 Constitution Ave, Washington, DC",
+      "website": "https://doe.senate.gov",
+      "social": {
+        "twitter": "@SenJaneDoe",
+        "facebook": "facebook.com/SenJaneDoe"
+      }
+    }
   }
 ]
