@@ -1,36 +1,103 @@
 [
   {
-    "id": "NC-SEN-01",
-    "name": "Jane Doe",
+    "id": "MD-SEN-01",
+    "name": "Angela Alsobrooks",
     "role": "Senator",
-    "state": "NC",
+    "state": "MD",
     "district": null,
-    "party": "Independent",
-    "photoUrl": "https://example.com/photos/jane-doe.jpg",
-    "platform": "Healthcare reform, climate action, voting rights",
-    "attendanceRate": 97.2,
-    "billsSponsored": 42,
-    "billsPassed": 11,
-    "approvalRating": 62.5,
-    "committees": ["Judiciary", "Environment and Public Works"],
+    "party": "Democratic",
+    "photoUrl": "https://www.senate.gov/senators/images/alsobrooks-md.jpg",
+    "platform": "Public safety, education equity, economic opportunity",
+    "attendanceRate": 96.4,
+    "billsSponsored": 18,
+    "billsPassed": 4,
+    "approvalRating": 59.1,
+    "committees": ["Health, Education, Labor, and Pensions", "Judiciary"],
     "score": {
-      "overall": 88.4,
-      "attendance": 9.7,
-      "impact": 8.5,
-      "bipartisanship": 7.9,
-      "engagement": 8.3
+      "overall": 84.2,
+      "attendance": 9.6,
+      "impact": 7.8,
+      "bipartisanship": 8.1,
+      "engagement": 8.7
     },
     "votingHistory": [],
-    "achievements": ["Led bipartisan climate task force", "Secured funding for rural hospitals"],
+    "achievements": ["Expanded youth mental health programs", "Secured federal education grants"],
     "contact": {
-      "email": "jane.doe@senate.gov",
-      "phone": "202-555-1234",
-      "address": "123 Constitution Ave, Washington, DC",
-      "website": "https://doe.senate.gov",
+      "email": "senator@alsobrooks.senate.gov",
+      "phone": "202-224-4524",
+      "address": "374 Russell Senate Office Building, Washington, DC",
+      "website": "https://alsobrooks.senate.gov",
       "social": {
-        "twitter": "@SenJaneDoe",
-        "facebook": "facebook.com/SenJaneDoe"
+        "twitter": "@SenAlsobrooks",
+        "facebook": "facebook.com/SenAlsobrooks"
+      }
+    }
+  },
+  {
+    "id": "WI-SEN-01",
+    "name": "Tammy Baldwin",
+    "role": "Senator",
+    "state": "WI",
+    "district": null,
+    "party": "Democratic",
+    "photoUrl": "https://www.senate.gov/senators/images/baldwin-wi.jpg",
+    "platform": "Healthcare access, LGBTQ+ rights, manufacturing jobs",
+    "attendanceRate": 98.2,
+    "billsSponsored": 35,
+    "billsPassed": 9,
+    "approvalRating": 61.7,
+    "committees": ["Appropriations", "Health, Education, Labor, and Pensions"],
+    "score": {
+      "overall": 87.9,
+      "attendance": 9.8,
+      "impact": 8.3,
+      "bipartisanship": 8.0,
+      "engagement": 8.6
+    },
+    "votingHistory": [],
+    "achievements": ["Authored LGBTQ+ anti-discrimination bill", "Secured rural hospital funding"],
+    "contact": {
+      "email": "senator@baldwin.senate.gov",
+      "phone": "202-224-5653",
+      "address": "141 Hart Senate Office Building, Washington, DC",
+      "website": "https://baldwin.senate.gov",
+      "social": {
+        "twitter": "@SenatorBaldwin",
+        "facebook": "facebook.com/SenatorTammyBaldwin"
+      }
+    }
+  },
+  {
+    "id": "IN-SEN-01",
+    "name": "Jim Banks",
+    "role": "Senator",
+    "state": "IN",
+    "district": null,
+    "party": "Republican",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Sen._Jim_Banks_official_Senate_photo,_119th_Congress_(HR).jpg",
+    "platform": "Defense spending, conservative values, veterans’ support",
+    "attendanceRate": 97.9,
+    "billsSponsored": 22,
+    "billsPassed": 6,
+    "approvalRating": 54.2,
+    "committees": ["Armed Services", "Veterans' Affairs"],
+    "score": {
+      "overall": 83.7,
+      "attendance": 9.7,
+      "impact": 7.9,
+      "bipartisanship": 7.4,
+      "engagement": 8.7
+    },
+    "votingHistory": [],
+    "achievements": ["Expanded GI Bill benefits", "Led cybersecurity task force"],
+    "contact": {
+      "email": "senator@banks.senate.gov",
+      "phone": "202-224-4814",
+      "address": "303 Hart Senate Office Building, Washington, DC",
+      "website": "https://banks.senate.gov",
+      "social": {
+        "twitter": "@SenJimBanks",
+        "facebook": "facebook.com/SenatorJimBanks"
       }
     }
   }
-]
