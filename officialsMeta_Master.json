@@ -1,5 +1,41 @@
 [
-  {
+  {{
+  "id": "PR-RC-01",
+  "name": "Jenniffer González-Colón",
+  "role": "Resident Commissioner",
+  "territory": "Puerto Rico",
+  "party": "New Progressive Party / Republican",
+  "photoUrl": "https://example.com/photos/jenniffer.jpg",
+  "platform": "Economic development, disaster recovery, statehood advocacy",
+  "attendanceRate": 95.1,
+  "billsSponsored": 28,
+  "billsPassed": 6,
+  "approvalRating": 58.3,
+  "committees": ["Natural Resources", "Small Business"],
+  "score": {
+    "overall": 84.2,
+    "attendance": 9.5,
+    "impact": 8.1,
+    "bipartisanship": 7.8,
+    "engagement": 8.2
+  },
+  "votingHistory": [],
+  "achievements": [
+    "Secured disaster relief funding",
+    "Advanced statehood resolution"
+  ],
+  "contact": {
+    "email": "jenniffer.gonzalez@mail.house.gov",
+    "phone": "202-225-2615",
+    "address": "1305 Longworth HOB, Washington, DC",
+    "website": "https://gonzalez-colon.house.gov",
+    "social": {
+      "twitter": "@RepJenniffer",
+      "facebook": "facebook.com/RepJenniffer"
+    }
+  }
+}
+
     "id": "NC-SEN-01",
     "name": "Jane Doe",
     "role": "Senator",
