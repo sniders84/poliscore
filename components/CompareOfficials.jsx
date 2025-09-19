@@ -10,7 +10,7 @@ function CompareOfficials({ officials }) {
       {officials.map(o => (
         <div key={o.id} className="official-card">
           <h3>{o.name}</h3>
-         <p>{o.role} — {o.state || o.territory}</p>
+         <p>{o.role} — {o.state || o.territory || 'Unknown'}</p>
         </div>
       ))}
     </div>
