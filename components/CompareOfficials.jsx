@@ -7,12 +7,11 @@ function CompareOfficials({ officials }) {
 
   return (
     <div className="compare-grid">
-      {officials.map(o => (
-        <div key={o.id} className="official-card">
-          <h3>{o.name}</h3>
-         <p>{o.role} — {o.state || o.territory || 'Unknown'}</p>
-        </div>
-      ))}
+      import OfficialCard from './OfficialCard';
+
+{officials.map(o => (
+  <OfficialCard key={o.id} official={o} />
+))}
     </div>
   );
 }
