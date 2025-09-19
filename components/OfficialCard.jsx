@@ -4,7 +4,11 @@ import './OfficialCard.css'; // optional styling
 const OfficialCard = ({ official }) => {
   return (
     <div className="official-card">
-      <img src={official.photoUrl} alt={official.name} className="official-photo" />
+      <img
+  src={official.photoUrl || 'https://via.placeholder.com/100'}
+  alt={official.name}
+  className="official-photo"
+/>
       <h2>{official.name}</h2>
       <p>{official.role} — {official.state || official.territory}</p>
       <div className="score-bar">
