@@ -1,35 +1,69 @@
 [
   {
-    "id": "MD-SEN-01",
-    "name": "Angela Alsobrooks",
+    "id": "CA-SEN-01",
+    "name": "Alex Padilla",
     "role": "Senator",
-    "state": "MD",
+    "state": "CA",
     "district": null,
     "party": "Democratic",
-    "photoUrl": "https://www.senate.gov/senators/images/alsobrooks-md.jpg",
-    "platform": "Public safety, education equity, economic opportunity",
-    "attendanceRate": 96.4,
-    "billsSponsored": 18,
-    "billsPassed": 4,
-    "approvalRating": 59.1,
-    "committees": ["Health, Education, Labor, and Pensions", "Judiciary"],
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Alex_Padilla_official_portrait%2C_119th_Congress.jpg",
+    "platform": "Voting rights, immigration reform, climate action",
+    "attendanceRate": 98.7,
+    "billsSponsored": 41,
+    "billsPassed": 9,
+    "approvalRating": 61.2,
+    "committees": ["Judiciary", "Environment and Public Works"],
     "score": {
-      "overall": 84.2,
-      "attendance": 9.6,
-      "impact": 7.8,
-      "bipartisanship": 8.1,
+      "overall": 89.1,
+      "attendance": 9.9,
+      "impact": 8.6,
+      "bipartisanship": 7.8,
       "engagement": 8.7
     },
     "votingHistory": [],
-    "achievements": ["Expanded youth mental health programs", "Secured federal education grants"],
+    "achievements": ["Led wildfire recovery funding", "Expanded voter access"],
     "contact": {
-      "email": "senator@alsobrooks.senate.gov",
-      "phone": "202-224-4524",
-      "address": "374 Russell Senate Office Building, Washington, DC",
-      "website": "https://alsobrooks.senate.gov",
+      "email": "senator@padilla.senate.gov",
+      "phone": "202-224-3553",
+      "address": "112 Hart Senate Office Building, Washington, DC",
+      "website": "https://padilla.senate.gov",
       "social": {
-        "twitter": "@SenAlsobrooks",
-        "facebook": "facebook.com/SenAlsobrooks"
+        "twitter": "@SenAlexPadilla",
+        "facebook": "facebook.com/SenAlexPadilla"
+      }
+    }
+  },
+  {
+    "id": "TX-SEN-01",
+    "name": "Ted Cruz",
+    "role": "Senator",
+    "state": "TX",
+    "district": null,
+    "party": "Republican",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Ted_Cruz_official_portrait%2C_119th_Congress.jpg",
+    "platform": "Constitutional conservatism, border security, tax reform",
+    "attendanceRate": 97.8,
+    "billsSponsored": 53,
+    "billsPassed": 12,
+    "approvalRating": 47.3,
+    "committees": ["Judiciary", "Commerce, Science, and Transportation"],
+    "score": {
+      "overall": 85.6,
+      "attendance": 9.7,
+      "impact": 8.4,
+      "bipartisanship": 7.2,
+      "engagement": 8.1
+    },
+    "votingHistory": [],
+    "achievements": ["Led tax reform initiative", "Authored legislation on internet freedom"],
+    "contact": {
+      "email": "senator@cruz.senate.gov",
+      "phone": "202-224-5922",
+      "address": "404 Russell Senate Office Building, Washington, DC",
+      "website": "https://www.cruz.senate.gov",
+      "social": {
+        "twitter": "@SenTedCruz",
+        "facebook": "facebook.com/SenatorTedCruz"
       }
     }
   },
@@ -40,7 +74,7 @@
     "state": "WI",
     "district": null,
     "party": "Democratic",
-    "photoUrl": "https://www.senate.gov/senators/images/baldwin-wi.jpg",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Tammy_Baldwin_official_portrait%2C_119th_Congress.jpg",
     "platform": "Healthcare access, LGBTQ+ rights, manufacturing jobs",
     "attendanceRate": 98.2,
     "billsSponsored": 35,
@@ -66,39 +100,6 @@
         "facebook": "facebook.com/SenatorTammyBaldwin"
       }
     }
-  },
-  {
-    "id": "IN-SEN-01",
-    "name": "Jim Banks",
-    "role": "Senator",
-    "state": "IN",
-    "district": null,
-    "party": "Republican",
-    "photoUrl": "https://commons.wikimedia.org/wiki/File:Sen._Jim_Banks_official_Senate_photo,_119th_Congress_(HR).jpg",
-    "platform": "Defense spending, conservative values, veterans’ support",
-    "attendanceRate": 97.9,
-    "billsSponsored": 22,
-    "billsPassed": 6,
-    "approvalRating": 54.2,
-    "committees": ["Armed Services", "Veterans' Affairs"],
-    "score": {
-      "overall": 83.7,
-      "attendance": 9.7,
-      "impact": 7.9,
-      "bipartisanship": 7.4,
-      "engagement": 8.7
-    },
-    "votingHistory": [],
-    "achievements": ["Expanded GI Bill benefits", "Led cybersecurity task force"],
-    "contact": {
-      "email": "senator@banks.senate.gov",
-      "phone": "202-224-4814",
-      "address": "303 Hart Senate Office Building, Washington, DC",
-      "website": "https://banks.senate.gov",
-      "social": {
-        "twitter": "@SenJimBanks",
-        "facebook": "facebook.com/SenatorJimBanks"
-      }
-    }
   }
+  // Add 7 more entries as I deliver them
 ]
